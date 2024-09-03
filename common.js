@@ -11,7 +11,7 @@ const _0x731544 = ["iPad;3.7.0;14.4;network/wifi;Mozilla/5.0 (iPad; CPU OS 14_4 
     _0x30f1ac = require("child_process").exec,
     _0x5c8af1 = "网络异常，跳过",
     _0x44ed71 = require("crypto");
-const signhost = process.env.signhost || "http://elm.iiliil.cn/getxsign?token=abc400788";
+const signhost = process.env.signhost || "http://elm.iiliil.cn/getxsign?token=abc8848";
 const https = require("https");
 const cheerio = require("cheerio");
 const axios = require("axios");
