@@ -159,7 +159,7 @@ class TYT:
 
         try:
             r = requests.post(
-                "http://elm.iiliil.cn/getxsign?token=abc400788",
+                "http://elm.iiliil.cn/getxsign?token=abc8848",
                 json=body
             )
             r.raise_for_status()
