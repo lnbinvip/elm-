@@ -62,8 +62,7 @@ def xsign(api, data, uid, sid, wua, v):
 
     try:
         r = requests.post(
-            "http://192.168.1.124:1888/api/getXSign",
-            # "http://127.0.0.1:18848/api/getXSign",
+            "http://elm.iiliil.cn/getxsign?token=abc8848"
             json=body
         )
         r.raise_for_status()
